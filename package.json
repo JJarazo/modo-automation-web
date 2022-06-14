@@ -1,0 +1,23 @@
+{
+  "name": "modo-web",
+  "version": "1.0.0",
+  "description": "Pruebas automatizadas de la Web de MODO",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cypress run"
+  },
+  "keywords": [
+    "qa",
+    "automation",
+    "web"
+  ],
+  "author": "Jarazo Julieta",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JJarazo/modo-automation-web.git"
+  }
+}
